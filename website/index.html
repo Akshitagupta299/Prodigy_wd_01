@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>ADVENTURE</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2c9b8406ee.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+               <li><a href="#"></a>Home</li>
+                <li><a href="#"></a>Tour</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a href="#"></a>Contact</li>
+            </ul>
+            <img src="menu.png" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>Explore The Colorful World</h2>
+                <div class="line"></div>
+                <h1>TOURS & TRIPS</h1>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </header>
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="camp.jpeg" alt="">
+                    <h4>Everst Camp Track</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Tenetur ipsam amet, quaerat fuga voluptas 
+                         consequuntur repellendus et, facere pariatur fugiat ipsa 
+                         cumque quo? Earum ratione similique atque harum 
+                         exercitationem maxime.</p>
+                         <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="mountain_climbing.jpg" alt="">
+                    <h4>Mountain Climbing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Tenetur ipsam amet, quaerat fuga voluptas 
+                         consequuntur repellendus et, facere pariatur fugiat ipsa 
+                         cumque quo? Earum ratione similique atque harum 
+                         exercitationem maxime.</p>
+                         <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore">
+           <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vel aliquid, fugit odit suscipit, quam corrupti est ratione natus fuga iure saepe, mollitia perspiciatis! Nam nulla voluptatem laborum voluptatibus assumenda.</p>
+            <a href="#" class="ctn">Learn More</a>
+           </div>
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                    <div class="line"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, a accusamus nesciunt nobis minima nisi tenetur nihil earum repellat vero sequi, est laudantium. Ducimus, numquam architecto nostrum commodi ratione quod?</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="img_1.jpg" alt="">
+                        <img src="img_2.jpg" alt="">
+                        <img src="img_3.jpg" alt="">
+                        <img src="img_4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <p>123 Fifth Avenue , NY 10160 , New York , USA | phone: 800-128-369 |Email: xyz@gmail.com </p>
+            <p>Copyright © 2023 Outdoor Adventure</p>
+        </section>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+</html>
